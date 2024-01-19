@@ -1,0 +1,36 @@
+.container{
+    @apply flex flex-row ml-[7%]
+}
+.recent{
+    @apply flex justify-center items-center w-[100px] h-[70px] text-white border-2 border-white rounded-xl m-[40px] font-[Poppins] cursor-pointer
+}
+.xz{
+    @apply flex mt-[40px] flex-col w-[130px] h-[120px] bg-white rounded-2xl cursor-pointer
+}
+.xz a{
+    @apply ml-[15%] font-bold font-[Poppins]
+}
+.popular{
+    @apply mt-[20px]
+}
+.arrow{
+    @apply mr-[10px] ml-[20px] mt-[10px]
+}
+.xzImg{
+    @apply flex justify-center items-center w-[25px] h-[25px] bg-gray-500 rounded-full
+}
+.xzImg img{
+    @apply w-[17px] h-[17px]
+}
+.xz2{
+    @apply flex mt-[40px] flex-col w-[250px] h-[120px] bg-white rounded-2xl cursor-pointer ml-[20px]
+}
+.xz2 a{
+    @apply ml-[10%] font-bold font-[Poppins]
+}
+.xz3{
+    @apply flex mt-[40px] items-center flex-col w-[130px] h-[120px] bg-[#7168E5] rounded-2xl cursor-pointer ml-[20px]
+}
+.xz3 a{
+    @apply font-bold font-[Poppins] text-white text-xl
+}

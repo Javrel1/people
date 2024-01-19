@@ -1,0 +1,12 @@
+.figures{
+    @apply flex flex-row ml-[25%]
+}
+.first{
+    @apply w-[70px] h-[70px] bg-white rounded-full
+}
+.second{
+    @apply w-[70px] h-[70px] bg-white rounded-tr-full
+}
+.third{
+    @apply w-[70px] h-[70px] bg-white rounded-br-full
+}

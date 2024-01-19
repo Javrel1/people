@@ -1,0 +1,12 @@
+.search{
+    @apply flex items-center w-[750px] h-[60px] border-l-4 border-l-white ml-[25%] text-4xl mt-[20px] text-[#B0ACE8]
+}
+.search a{
+    @apply ml-[10px]
+}
+.xz{
+    @apply w-full flex justify-end h-[30px]
+}
+.xz img{
+    @apply ml-[20px] cursor-pointer
+}

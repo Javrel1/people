@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:wght@300&family=Teko:wght@300&display=swap');
+
+body{
+    @apply bg-[#4D43E4]
+}
+.header{
+    @apply flex flex-row justify-between
+}
+.logo{
+    @apply flex flex-row items-center w-[50px] h-[50px] m-[20px]
+}
+.logo img{
+    @apply ml-[20px]
+}
+.logo a{
+    @apply ml-[10px] font-[Poppins] text-white text-2xl font-bold
+}
+.menu{
+    @apply flex flex-row
+}
+.categories{
+    @apply flex flex-row m-[40px] mr-[100px]
+}
+.main{
+    @apply mr-[35px] text-white cursor-pointer font-[Poppins] text-[15px]
+}
+.twoEl{
+    @apply flex flex-row m-[30px]
+}
+.buy{
+    @apply flex justify-center items-center bg-white w-[45px] h-[45px] rounded-full mt-[-6px] mr-[20px]
+}
+.buy img{
+    @apply w-[20px] h-[20px] cursor-pointer
+}
+.menuBar{
+    @apply flex justify-center items-center border-2 border-white w-[45px] h-[45px] rounded-full mt-[-6px]
+}
+.menuBar img{
+    @apply w-[20px] h-[20px] cursor-pointer
+}

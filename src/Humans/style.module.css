@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:wght@300&family=Teko:wght@300&display=swap');
+
+.side{
+    @apply m-[40px] mt-[-15%]
+}
+.all{
+    @apply text-white font-[Poppins] text-2xl mt-[25px] font-bold
+}
+.man{
+    @apply text-gray-400 font-[Poppins] text-xl mt-[40px] font-bold
+}
+.woman{
+    @apply text-gray-400 font-[Poppins] text-xl mt-[30px] font-bold
+}
+.kids{
+    @apply text-gray-400 font-[Poppins] text-xl mt-[30px] font-bold
+}

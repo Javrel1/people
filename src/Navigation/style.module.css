@@ -1,0 +1,15 @@
+.showAll{
+    @apply flex justify-center items-center w-[120px] h-[50px] text-white border-2 border-white rounded-xl m-[40px] font-[Poppins] cursor-pointer
+}
+.buttons{
+    @apply flex flex-row ml-[40px]
+}
+.buttons img{
+    @apply w-[25px] h-[25px]
+}
+.left{
+    @apply flex justify-center items-center w-[50px] h-[50px] border-2 border-white rounded-[6px] cursor-pointer
+}
+.right{
+    @apply flex justify-center items-center w-[50px] h-[50px] bg-[#E77D15] rounded-[6px] ml-[20px] cursor-pointer
+}

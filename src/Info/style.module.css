@@ -1,0 +1,9 @@
+.info{
+    @apply flex flex-row ml-[25%] mt-[20px]
+}
+.pg{
+    @apply text-white text-8xl font-[Poppins] font-bold
+}
+.gs{
+    @apply flex items-end h-[90px] text-white text-4xl font-[Poppins] font-bold ml-[25px]
+}
