@@ -4,7 +4,7 @@ body{
     @apply bg-[#4D43E4]
 }
 .header{
-    @apply flex flex-row justify-between
+    @apply flex flex-row justify-between w-full
 }
 .logo{
     @apply flex flex-row items-center w-[50px] h-[50px] m-[20px]

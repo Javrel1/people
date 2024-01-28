@@ -7,6 +7,7 @@ import Search from "../Search/Search";
 import Humans from "../Humans/Humans";
 import Navigation from "../Navigation/Navigation";
 import Also from "../Also/Also";
+import {AnimatePresence, motion} from "framer-motion";
 
 function Main(){
     return(
@@ -20,7 +21,6 @@ function Main(){
                 <Navigation/>
                 <Also/>
             </div>
-
         </div>
     )
 }
