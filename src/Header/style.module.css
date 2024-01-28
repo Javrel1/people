@@ -39,3 +39,11 @@ body{
 .menuBar img{
     @apply w-[20px] h-[20px] cursor-pointer
 }
+@media only screen and (max-width: 600px) {
+    .header{
+        @apply w-full
+    }
+    .logo{
+        @apply w-[35px] h-[35px]
+    }
+}
